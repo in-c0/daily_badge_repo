@@ -24,7 +24,7 @@ month = today.strftime("%B")
 day = today.day
 
 # ─── Load Messages ─────────────────────────────────────────────
-df = pd.read_csv("Fun_Daily_Messages_365.csv")
+df = pd.read_csv("What_Day_365.csv")
 
 try:
     today_message = df[(df["Day"] == f"{month} {day}")]["Message"].values[0]
