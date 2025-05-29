@@ -1,0 +1,40 @@
+# Choose ONE timezone from the list below and paste it into timezone.txt
+
+# ─── Americas ───
+America/New_York
+America/Chicago
+America/Denver
+America/Los_Angeles
+America/Toronto
+America/Sao_Paulo
+America/Mexico_City
+
+# ─── Europe ───
+Europe/London
+Europe/Paris
+Europe/Berlin
+Europe/Madrid
+Europe/Rome
+Europe/Moscow
+
+# ─── Asia ───
+Asia/Tokyo
+Asia/Seoul
+Asia/Shanghai
+Asia/Singapore
+Asia/Kolkata
+Asia/Bangkok
+Asia/Dubai
+
+# ─── Oceania ───
+Australia/Sydney
+Australia/Melbourne
+Pacific/Auckland
+
+# ─── Africa ───
+Africa/Johannesburg
+Africa/Cairo
+Africa/Lagos
+
+# ─── Others ───
+UTC
