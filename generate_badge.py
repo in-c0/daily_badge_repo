@@ -1,0 +1,1 @@
+print('generate_badge.py stub')
