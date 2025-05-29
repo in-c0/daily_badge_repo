@@ -2,7 +2,7 @@
 
 Get a cute, quirky, uplifting message on your GitHub profile — refreshed daily ✨
 
-
+![Daily Badge](https://img.shields.io/endpoint?url=https://in-c0.github.io/daily-badge/badge.json&style=for-the-badge)
 
 ## 💖 How to Use
 
