@@ -1,1 +1,28 @@
-name: Stub Workflow
+name: Update Daily Message Badge
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # every day at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+      - name: Install dependencies
+        run: pip install pandas
+      - name: Generate daily badge JSON
+        run: |
+          python generate_badge.py
+      - name: Commit and push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add badge.json
+          git commit -m "Update badge" || echo "No changes to commit"
+          git push
