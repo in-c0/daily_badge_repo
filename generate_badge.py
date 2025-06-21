@@ -34,7 +34,7 @@ except IndexError:
 # ─── Create Badge JSON ─────────────────────────────────────────
 badge = {
     "schemaVersion": 1,
-    "label": "Daily Message",
+    "label": "Today is ... ",
     "message": today_message,
     "color": "pink"
 }
